@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('media/paragliding-1220000_1280.jpg');
+  height: 100%;
+  display: block;
+}
+
+.topnav{
+  width: 100%;
+  position: block;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.mainWrapper{
+  margin-top: 3rem;
+  background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  color: white;
+  width: 60%;
+  padding-left: 2rem;
+}
+
+.mainWrapper h1{
+  color: white;
+  font-size: 2.5rem;
+}
+
+span{
+  color: #F1C40F;
+}
+
+.form-group label{
+  font-size: 1rem;
+}
+
+#fileName{
+  width: 50%;
+  color: black;
+}
+
+#fileContents{
+  width: 60%;
+  color: black;
+}
+
+.mybtn{
+  background-color: #F1C40F;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-2{
+  margin-left: 2rem;
+}
+
+.btn-3{
+  margin-left: 2rem;
+}
+
+.btn-4{
+  margin-left: 2rem;
+}
+
+.mybtn:hover{
+  border: 1px solid red;
+  background: red;
+  transition: 0.5s;
+}

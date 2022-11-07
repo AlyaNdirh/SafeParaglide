@@ -1,0 +1,152 @@
+body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 1.5rem;
+}
+
+.topnav{
+  width: 100%;
+  position: block;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.alert{
+  background: #000000d0;
+  color: white;
+  width: 100%;
+  max-width: 850px;
+  padding: 0.3rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.alert h1{
+  font-size: 1.2rem;
+  border-bottom: solid #F1C40F .2rem;
+  padding: .2rem;
+  color: white;
+  letter-spacing: .5rem;
+}
+.alert p{
+  font-size: 1.2rem;
+  padding: .2rem;
+}
+
+span{
+  color: red;
+}
+
+.card{
+  background: #000000d0;
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  margin: 2rem;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+  
+button{
+  margin: 0.5em;
+  padding: 0.4em 1em;
+  border: none;
+  height: 49px;
+  width: 49px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover{
+  background: #7c7c7c6b;
+}
+  
+.temp h1{
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+  
+.flex{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+  
+.description{
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+  
+.weather.loading{
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+  
+.weather.loading:after{
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.humidity{
+  margin-bottom: 1rem;
+}
+
+.wind{
+  margin-bottom: 1rem;
+}
+
+.gust{
+  margin-bottom: 1rem;
+}
+
+.coord{
+  display: flex;
+}
+
+.lat{
+  margin-left: 2rem;
+}
